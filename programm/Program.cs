@@ -17,7 +17,7 @@ void FormingArrayOfThreeOrFewerRows(string[] array1, string[] array2) // Мет�
     {
         if(array1[i].Length <= 3)
         {
-        array2[count] = array[i];
+        array2[count] = array1[i];
         count++;
         }
     }
